@@ -4,8 +4,8 @@ import datetime
 from  datetime import date
 import openpyxl
 
-client_id = "1d2591a5-869a-4237-8e4d-f286124d2c7a"
-client_secret = "D1bH7hG5mC0hG6pE0wY7lQ4jJ1rD1oF6oA8kN4sE5yL0iQ4yW0"
+client_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" #enter client id
+client_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0" #enter client secret
 
 all_cities = [['Edinburgh', '-3.201549', '55.950724'], ['Glasgow', '-4.258124', '55.858819'], ['Dundee', '-2.970447', '56.462230'], ['Aberdeen', '-2.099616', '57.144591']]
 
