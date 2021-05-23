@@ -9,7 +9,7 @@ Requests are made with the Met Office API Weather DataHub service using the 'Glo
 Requests data for specified coordinate locations. The response will include weather observation for the current day and the day before, and weather forecasts for the following 6 days.
 The current focus of the script is to extract the weather significant daily code corresponding to a daily observation/forecast (e.g. "Sunny day", "Light rain", etc.).
 These get recorded in a pre-set excel workbook for easy distribution against the corresponding date. It's worth noting here that, existing data (weather codes) for a particular day will be overwritten if the current API response covers that date as information in the latest response is considered to be more accurate.
-The script outputs the raw JSON response from the API for each city in case a future need is identified to analyse data available from the response but not currently covered by the script.
+A separate file with the JSON response is recorded for each city to cover any future need for analysis that is not be included in the current script.
 
 
 # Depends:
